@@ -8,12 +8,14 @@
     <meta name="description" content="">
     <link rel="shortcut icon" href="">
     <link rel="canonical" href="">
-
     <!-- Pico.css -->
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-
     <!-- Custom styles for this example -->
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link href="https://https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -109,29 +111,11 @@
         <small>Footer stuff</a> • <a href="">Footery things</a></small>
     </footer><!-- ./ Footer -->
 
-    <!-- Minimal theme switcher -->
-    <script src="../js/minimal-theme-switcher.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-<script src="./script.js"></script>
-<script>$(window).scroll(function () {
-        var height = $(window).scrollTop();
-        if (height > 100) {
-            $('#toTop').fadeIn();
-        } else {
-            $('#toTop').fadeOut();
-        }
-    });
-    $(document).ready(function () {
-        $("#toTop").click(function (event) {
-            event.preventDefault();
-            $("html, body").animate({ scrollTop: 0 }, "slow");
-            return false;
-        });
-    })
-</script>
-
   </body>
+
+      <!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="./assets/script.js"></script>
 
 </html>
