@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company example • Pico.css</title>
-    <meta name="description" content="A classic company or blog layout with a sidebar. Built with Pico CSS.">
-    <link rel="shortcut icon" href="https://picocss.com/favicon.ico">
-    <link rel="canonical" href="https://picocss.com/examples/company/">
+    <title>Brandon Ashby • Web Developer</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="">
+    <link rel="canonical" href="">
 
     <!-- Pico.css -->
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
@@ -98,6 +98,12 @@
       </div>
     </section><!-- ./ Subscribe -->
 
+    <form action="#">
+      <button id="toTop" title="Go to top">
+          <i class="fas fa-angle-up"></i>
+      </button>
+  </form>
+
     <!-- Footer -->
     <footer class="container">
         <small>Footer stuff</a> • <a href="">Footery things</a></small>
@@ -105,6 +111,26 @@
 
     <!-- Minimal theme switcher -->
     <script src="../js/minimal-theme-switcher.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script src="./script.js"></script>
+<script>$(window).scroll(function () {
+        var height = $(window).scrollTop();
+        if (height > 100) {
+            $('#toTop').fadeIn();
+        } else {
+            $('#toTop').fadeOut();
+        }
+    });
+    $(document).ready(function () {
+        $("#toTop").click(function (event) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+    })
+</script>
 
   </body>
 
