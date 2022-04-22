@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Company example • Pico.css</title>
+    <meta name="description" content="A classic company or blog layout with a sidebar. Built with Pico CSS.">
+    <link rel="shortcut icon" href="https://picocss.com/favicon.ico">
+    <link rel="canonical" href="https://picocss.com/examples/company/">
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css">
+  </head>
+
+  <body>
+
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul>
+          <li><a href="./" class="contrast" onclick="event.preventDefault()"><strong>Brand</strong></a></li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">More</summary>
+              <ul role="listbox">
+                <li><a href="../preview/">Preview</a></li>
+                <li><a href="../preview-rtl/">Right-to-left</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+      <header class="container">
+        <hgroup>
+          <h1>Hello</h1>
+          <h2>Welcome to my portfolio</h2>
+        </hgroup>
+        
+      </header>
+    </div><!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
+
+        <section>
+          <hgroup>
+            <h2>About Me</h2>
+          </hgroup>
+          <p>Short intro here, click button for more</p>
+          <figure>
+            <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+            <button id=""about-me-btn>About Me</button>
+          </figure>
+          <h3>Nulla augue metus</h3>
+          <p>Pacilisis sed ante ut, posuere volutpat quam. Maecenas maximus blandit mi ac finibus. Proin quis lacinia tellus. Aliquam erat volutpat. Aliquam erat volutpat. Phasellus suscipit nisi augue, id accumsan tortor auctor ut. Duis odio arcu, egestas nec nulla vel, fermentum bibendum ex.</p>
+          <h3>Sed purus sapien, porta a cursus sed, maximus et metus.</h3>
+          <p>Phasellus molestie ante sed massa bibendum, eget tempus ex sollicitudin. Vestibulum libero nulla, porttitor nec faucibus et, scelerisque eget quam. Nullam finibus tempor dui, vel congue urna condimentum ac. Fusce ultricies mauris justo, nec vulputate mauris pulvinar eu. Sed tempus ligula lorem, at tincidunt risus mollis non. Quisque et turpis sit amet sapien gravida ullamcorper in eu velit. Curabitur luctus ornare finibus. Proin tempor nulla sagittis est fermentum dapibus. Vestibulum posuere mattis congue. Ut porttitor id sem euismod tristique. Quisque mi est, posuere nec lorem eu, vulputate vehicula diam. Nullam scelerisque, libero posuere efficitur bibendum, urna odio finibus lorem, sed volutpat dolor ligula in dolor. Suspendisse suscipit efficitur neque, ut porta tellus mollis vel. Nam consequat arcu ac tellus porta, nec egestas orci sodales.</p>
+        </section>
+
+        <aside>
+          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="https://source.unsplash.com/T5nXYXCf50I/1500x750" alt="Architecture"></a>
+          <p>
+            <a href="#" onclick="event.preventDefault()">Donec sit amet</a><br>
+            <small>Class aptent taciti sociosqu ad litora torquent per conubia nostra</small>
+          </p>
+          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="https://source.unsplash.com/tb4heMa-ZRo/1500x750" alt="Architecture"></a>
+          <p>
+            <a href="#" onclick="event.preventDefault()">Suspendisse potenti</a><br>
+            <small>Proin non condimentum tortor. Donec in feugiat sapien.</small>
+          </p>
+          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="https://source.unsplash.com/Ru3Ap8TNcsk/1500x750" alt="Architecture"></a>
+          <p>
+            <a href="#" onclick="event.preventDefault()">Nullam lobortis placerat aliquam</a><br>
+            <small>Maecenas vitae nibh blandit dolor commodo egestas vel eget neque. Praesent semper justo orci, vel imperdiet mi auctor in.</small>
+          </p>
+        </aside>
+
+      </div>
+    </main><!-- ./ Main -->
+
+    <!-- Subscribe -->
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Subscribe</h2>
+            <h3>Litora torquent per conubia nostra</h3>
+          </hgroup>
+            <form class="grid">
+              <input type="text" id="firstname" name="firstname" placeholder="First name" aria-label="First name" required>
+              <input type="email" id="email" name="email" placeholder="Email address" aria-label="Email address" required>
+              <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+          </form>
+        </article>
+      </div>
+    </section><!-- ./ Subscribe -->
+
+    <!-- Footer -->
+    <footer class="container">
+      <small>Footer stuff</a> • <a href="">Footery things</a></small>
+    </footer><!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="../js/minimal-theme-switcher.js"></script>
+
+  </body>
+
+</html>
