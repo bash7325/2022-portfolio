@@ -4,12 +4,32 @@
   --primary-hover: #e25b56 !important;
 }
 
+h1, h4 {
+  text-align: center;
+}
+
 .description-text {
   margin-top: 20%;  
 }
 
-.content-divider {
+hr {
   margin-bottom: 50px;
+    height: 5px;
+}
+
+#content-divider-1 {
+  background: rgb(136, 202, 255);
+  width: 50%;
+}
+
+#content-divider-2 {
+  background: rgb(212, 112, 214);
+  width: 50%;
+}
+
+#content-divider-3 {
+  background: rgba(113,239,183,255);
+  width: 50%;
 }
 
 #footer-text {
