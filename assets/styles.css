@@ -7,6 +7,18 @@
   margin-top: 20%;  
 }
 
+.content-divider {
+  margin-bottom: 50px;
+}
+
+#footer-text {
+  text-align: center;
+}
+
+#footer-links {
+  text-align: center;
+}
+
 #intro {
   margin-top: 75px;
 }

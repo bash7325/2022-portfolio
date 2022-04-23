@@ -21,3 +21,5 @@ AOS.init({
     offset: 350,
     duration: 1000,
   });
+
+//on mobile, hide text content of my projects and show the section below to keep the styling consistent
