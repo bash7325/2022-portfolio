@@ -1,13 +1,14 @@
-img {
-  padding-bottom: 10px;
+
+:root {
+  --primary: #D4413D !important;
+}
+
+.description-text {
+  margin-top: 20%;  
 }
 
 #intro {
   margin-top: 75px;
-}
-
-.cards {
-  width: 60%;
 }
 
 #my-projects {

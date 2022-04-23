@@ -1,101 +1,116 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Brandon Ashby • Web Developer</title>
-    <meta property="og:title" content="Brandon Ashby - Web Developer - My Portfolio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="./assets/BA-Logo.png" />
-    <meta property="og:url" content="https://www.bashbydev.com" />
-    <link rel="icon" href="./assets/images/BA.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-    <link href="https://https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brandon Ashby • Web Developer</title>
+  <meta property="og:title" content="Brandon Ashby - Web Developer - My Portfolio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/BA-Logo.png" />
+  <meta property="og:url" content="https://www.bashbydev.com" />
+  <link rel="icon" href="./assets/images/BA.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <link href="https://https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 
-    <!-- Hero -->
-    <div class="hero" data-theme="dark">
-      <nav class="container-fluid">
-        <ul>
-          <li><a href="./" class="contrast" id="logo"></a></li>
-        </ul>
-        <ul>
-          <li>
-            <details role="list" dir="rtl">
-              <summary aria-haspopup="listbox" role="link" class="contrast">More</summary>
-              <ul role="listbox">
-                <li><a href="../preview/">About Me</a></li>
-                <li><a href="../preview-rtl/">My Projects</a></li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-      </nav>
-      <header class="container" data-aos="flip-down">
-        <hgroup id="intro">
-          <h1>Hello, I'm Brandon. I'm a full stack web developer.</h1>
-          <h4>Welcome to my portfolio</h4>
-          <hr class="content-divider">
-          
+<body>
+
+  <!-- Hero -->
+  <div class="hero" data-theme="dark">
+    <nav class="container-fluid">
+      <ul>
+        <li><a href="./" class="contrast" id="logo"></a></li>
+      </ul>
+      <ul>
+        <li>
+          <details role="list" dir="rtl">
+            <summary aria-haspopup="listbox" role="link" class="contrast">More</summary>
+            <ul role="listbox">
+              <li><a href="../preview/">About Me</a></li>
+              <li><a href="../preview-rtl/">My Projects</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </nav>
+    <header class="container" data-aos="flip-down">
+      <hgroup id="intro">
+        <h1>Hello, I'm Brandon. I'm a full stack web developer.</h1>
+        <h4>Welcome to my portfolio</h4>
+        <hr class="content-divider">
+
+      </hgroup>
+
+    </header>
+  </div><!-- ./ Hero -->
+
+  <!-- Main -->
+  <main class="container">
+
+    <div class="grid" data-aos="fade-right">
+      <section class="cards" id="about-me">
+        <hgroup>
+          <h2>About Me</h2>
         </hgroup>
-        
-      </header>
-    </div><!-- ./ Hero -->
+        <figure class="home-image">
+          <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+        </figure>
+        <button class="card-buttons">About Me</button>
+      </section>
+      <section>
+        <p class="description-text">But that shouldn’t stop you from pursuing your own dreams of wood, plywood, pressed fiberboard, and if you’ve
+          got the talent, metal! Y’see, shop doesn’t have to happen in any special place—as long as it’s well lit, and
+          the outlets are grounded. Because the shop is bigger than any classroom, or garage, or stupid policy that
+          makes tools illegal—it’s in our hearts.</p>
+      </section>
+    </div>
 
-    <!-- Main -->
-    <main class="container">
+    <div class="grid" data-aos="fade-right">
+      <section>
+        <p class="description-text">Developing skills in building responsive, dynamic web applications
+          utilizing HTML, CSS, JavaScript, SQL, MongoDB, React, C# and more.</p>
+      </section>
+      <section class="cards" id="about-me">
+        <hgroup>
+          <h2>My Projects</h2>
+        </hgroup>
+        <figure class="home-image">
+          <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+        </figure>
+        <button class="card-buttons">About Me</button>
+      </section>
+      
+    </div>
 
-      <div class="grid" data-aos="fade-right">
-        <section class="cards" id="about-me" >
-          <hgroup>
-            <h2>About Me</h2>
-          </hgroup>
-          <p>Short intro here, click button for more</p>
-          <figure class="home-image">
-            <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
-          </figure>
-          <button id=""about-me-btn>About Me</button>
-        </section>
-      </div>
-
-      <div class="grid" data-aos="fade-left" dat-aos-mirror="false">
-        <section class="cards" id="my-projects">
-          <hgroup>
-            <h2>My Projects</h2>
-          </hgroup>
-          <p>Short intro here, click button for more</p>
-          <figure class="home-image">
-            <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
-          </figure>
-          <button id=""about-me-btn>My Projects</button>
-        </section>
-      </div>
-
-      <div class="grid" data-aos="fade-right">
-        <section class="cards" id="contact">
-          <hgroup>
-            <h2>Contact</h2>
-          </hgroup>
-          <p>Short intro here, click button for more</p>
-          <figure class="home-image">
-            <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
-          </figure>
-          <button id=""about-me-btn>Contact</button>
-        </section>
-      </div>
+    <div class="grid" data-aos="fade-right">
+      <section class="cards" id="about-me">
+        <hgroup>
+          <h2>About Me</h2>
+        </hgroup>
+        <figure class="home-image">
+          <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+        </figure>
+        <button class="card-buttons">About Me</button>
+      </section>
+      <section>
+        <p class="description-text">But that shouldn’t stop you from pursuing your own dreams of wood, plywood, pressed fiberboard, and if you’ve
+          got the talent, metal! Y’see, shop doesn’t have to happen in any special place—as long as it’s well lit, and
+          the outlets are grounded. Because the shop is bigger than any classroom, or garage, or stupid policy that
+          makes tools illegal—it’s in our hearts.</p>
+      </section>
+    </div>
 
 
 
 
-    </main><!-- ./ Main -->
+  </main><!-- ./ Main -->
 
-    <!-- <section aria-label="Subscribe example">
+  <!-- <section aria-label="Subscribe example">
       <div class="container">
         <article>
           <hgroup>
@@ -111,20 +126,20 @@
       </div>
     </section> -->
 
-    <form action="#">
-      <button id="toTop" title="Go to top">
-          <i class="fas fa-angle-up"></i>
-      </button>
+  <form action="#">
+    <button id="toTop" title="Go to top">
+      <i class="fas fa-angle-up"></i>
+    </button>
   </form>
 
-    <!-- Footer -->
-    <footer class="container">
-        <small>Footer stuff</a> • <a href="">Footery things</a></small>
-    </footer><!-- ./ Footer -->
+  <!-- Footer -->
+  <footer class="container">
+    <small>Footer stuff</a> • <a href="">Footery things</a></small>
+  </footer><!-- ./ Footer -->
 
-  </body>
+</body>
 
-      <!-- Scripts -->
+<!-- Scripts -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="./assets/script.js"></script>
