@@ -62,7 +62,22 @@
   background-color: #43485c;
   transition: all 0.2s ease-in-out;
   }
+
+  #my-project-text-mobile {
+    display: none;
+  }
   
   html {
     scroll-behavior: smooth;
   }
+
+  @media screen and (max-width: 992px) {
+    #my-project-text-desktop {
+      display: none
+    }
+    #my-project-text-mobile {
+      display: block;
+    }
+  }
+    
+  
