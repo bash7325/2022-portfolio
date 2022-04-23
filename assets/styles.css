@@ -1,6 +1,7 @@
 
 :root {
   --primary: #D4413D !important;
+  --primary-hover: #e25b56 !important;
 }
 
 .description-text {
@@ -52,6 +53,8 @@
   border-radius: 50%;
   font-size: 2rem;
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+  padding-top: 0px;
+  padding-left: 13px;
   }
   
   #toTop a {
@@ -59,7 +62,7 @@
   }
   
   #toTop:hover {
-  background-color: #43485c;
+  background-color: #e25b56;
   transition: all 0.2s ease-in-out;
   }
 
@@ -77,6 +80,9 @@
     }
     #my-project-text-mobile {
       display: block;
+    }
+    .description-text {
+      margin-top: 0px;
     }
   }
     

@@ -28,8 +28,14 @@
       </ul>
       <ul>
         <li>
-          <details role="list" dir="rtl">
-            <summary aria-haspopup="listbox" role="link" class="contrast">More</summary>
+          <details  role="list" dir="rtl">
+            <summary aria-haspopup="listbox" role="link" class="contrast">
+              <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20" rx="8"></rect>
+                <rect y="30" width="100" height="20" rx="8"></rect>
+                <rect y="60" width="100" height="20" rx="8"></rect>
+            </svg>
+            </summary>
             <ul role="listbox">
               <li><a href="../preview/">About Me</a></li>
               <li><a href="../preview-rtl/">My Projects</a></li>
@@ -38,7 +44,7 @@
         </li>
       </ul>
     </nav>
-    <header class="container" data-aos="flip-down">
+    <header class="container" data-aos="flip-down" data-aos-duration="2000">
       <hgroup id="intro">
         <h1>Hello, I'm Brandon. I'm a full stack web developer.</h1>
         <h4>Welcome to my portfolio</h4>
@@ -57,16 +63,13 @@
           <h2>About Me</h2>
         </hgroup>
         <figure class="home-image">
-          <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+          <img src="./assets/images/Display Mockup.jpg" alt="Architecture">
         </figure>
         <button class="card-buttons">About Me</button>
       </section>
       <section>
-        <p class="description-text">But that shouldn’t stop you from pursuing your own dreams of wood, plywood, pressed
-          fiberboard, and if you’ve
-          got the talent, metal! Y’see, shop doesn’t have to happen in any special place—as long as it’s well lit, and
-          the outlets are grounded. Because the shop is bigger than any classroom, or garage, or stupid policy that
-          makes tools illegal—it’s in our hearts.</p>
+        <p class="description-text">Based out of Salt Lake City, UT and a graduate of the University of Utah Web Development Bootcamp. Currently employed as a full-stack developer
+          building and maintaining case management applications for public defenders across the country.</p>
       </section>
     </div>
 
@@ -83,7 +86,7 @@
           <h2>My Projects</h2>
         </hgroup>
         <figure class="home-image">
-          <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+          <img src="./assets/images/Smartphone Mockup.jpg" alt="Architecture">
         </figure>
         <button class="card-buttons">My Projects</button>
       </section>
@@ -102,16 +105,12 @@
           <h2>Contact</h2>
         </hgroup>
         <figure class="home-image">
-          <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+          <img src="./assets/images/Display Mockup.jpg" alt="Architecture">
         </figure>
         <button class="card-buttons">Contact Me</button>
       </section>
       <section>
-        <p class="description-text">But that shouldn’t stop you from pursuing your own dreams of wood, plywood, pressed
-          fiberboard, and if you’ve
-          got the talent, metal! Y’see, shop doesn’t have to happen in any special place—as long as it’s well lit, and
-          the outlets are grounded. Because the shop is bigger than any classroom, or garage, or stupid policy that
-          makes tools illegal—it’s in our hearts.</p>
+        <p class="description-text">Got a question? Need a link to my Github, LinkedIn or resume? Please reach out and I will be in touch ASAP.</p>
       </section>
     </div>
 
@@ -141,6 +140,7 @@
 
 <!-- Scripts -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- <script src="anijs-min.js"></script> -->
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="./assets/script.js"></script>
 
