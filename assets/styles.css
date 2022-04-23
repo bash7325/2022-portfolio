@@ -6,6 +6,15 @@ img {
   margin-top: 75px;
 }
 
+.cards {
+  width: 60%;
+}
+
+#my-projects {
+  /*move to the right side of the screen*/
+  margin-left: auto;
+}
+
 #logo {
   background: url(./images/BA-Logo.png) no-repeat center center;
   background-size: cover;

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,10 +10,10 @@
     <meta property="og:url" content="https://www.bashbydev.com" />
     <link rel="icon" href="./assets/images/BA.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-    <link rel="stylesheet" href="./assets/styles.css">
     <link href="https://https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
 
@@ -38,7 +37,7 @@
           </li>
         </ul>
       </nav>
-      <header class="container">
+      <header class="container" data-aos="flip-down">
         <hgroup id="intro">
           <h1>Hello, I'm Brandon. I'm a full stack web developer.</h1>
           <h4>Welcome to my portfolio</h4>
@@ -51,42 +50,52 @@
 
     <!-- Main -->
     <main class="container">
-      <div class="grid">
 
-        <section>
+      <div class="grid" data-aos="fade-right">
+        <section class="cards" id="about-me" >
           <hgroup>
             <h2>About Me</h2>
           </hgroup>
           <p>Short intro here, click button for more</p>
           <figure class="home-image">
             <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
-            <button id=""about-me-btn>About Me</button>
           </figure>
+          <button id=""about-me-btn>About Me</button>
         </section>
-
-        <aside>
-          <a href="#" aria-label="Example"><img src="https://source.unsplash.com/T5nXYXCf50I/1500x750" alt="Architecture"></a>
-          <p>
-            <a href="#">Donec sit amet</a><br>
-            <small>Class aptent taciti sociosqu ad litora torquent per conubia nostra</small>
-          </p>
-          <a href="#" aria-label="Example"><img src="https://source.unsplash.com/tb4heMa-ZRo/1500x750" alt="Architecture"></a>
-          <p>
-            <a href="#">Suspendisse potenti</a><br>
-            <small>Proin non condimentum tortor. Donec in feugiat sapien.</small>
-          </p>
-          <a href="#" aria-label="Example"><img src="https://source.unsplash.com/Ru3Ap8TNcsk/1500x750" alt="Architecture"></a>
-          <p>
-            <a href="#">Nullam lobortis placerat aliquam</a><br>
-            <small>Maecenas vitae nibh blandit dolor commodo egestas vel eget neque. Praesent semper justo orci, vel imperdiet mi auctor in.</small>
-          </p>
-        </aside>
-
       </div>
+
+      <div class="grid" data-aos="fade-left" dat-aos-mirror="false">
+        <section class="cards" id="my-projects">
+          <hgroup>
+            <h2>My Projects</h2>
+          </hgroup>
+          <p>Short intro here, click button for more</p>
+          <figure class="home-image">
+            <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+          </figure>
+          <button id=""about-me-btn>My Projects</button>
+        </section>
+      </div>
+
+      <div class="grid" data-aos="fade-right">
+        <section class="cards" id="contact">
+          <hgroup>
+            <h2>Contact</h2>
+          </hgroup>
+          <p>Short intro here, click button for more</p>
+          <figure class="home-image">
+            <img src="https://source.unsplash.com/3Ijt7UkSBYE/1500x750" alt="Architecture">
+          </figure>
+          <button id=""about-me-btn>Contact</button>
+        </section>
+      </div>
+
+
+
+
     </main><!-- ./ Main -->
 
-    <!-- Subscribe -->
-    <section aria-label="Subscribe example">
+    <!-- <section aria-label="Subscribe example">
       <div class="container">
         <article>
           <hgroup>
@@ -100,7 +109,7 @@
           </form>
         </article>
       </div>
-    </section><!-- ./ Subscribe -->
+    </section> -->
 
     <form action="#">
       <button id="toTop" title="Go to top">

@@ -15,3 +15,9 @@ $(document).ready(function () {
         return false;
     });
 })
+
+//AOS initialization
+AOS.init({
+    offset: 350,
+    duration: 1000,
+  });
