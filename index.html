@@ -1,147 +1,179 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brandon Ashby • Web Developer</title>
+    <meta
+      property="og:title"
+      content="Brandon Ashby - Web Developer - My Portfolio"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/BA-Logo.png" />
+    <meta property="og:url" content="https://www.bashbydev.com" />
+    <link rel="icon" href="./assets/images/BA.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+    />
+    <link
+      href="https://https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/15181efa86.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brandon Ashby • Web Developer</title>
-  <meta property="og:title" content="Brandon Ashby - Web Developer - My Portfolio" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="./assets/BA-Logo.png" />
-  <meta property="og:url" content="https://www.bashbydev.com" />
-  <link rel="icon" href="./assets/images/BA.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-  <link href="https://https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-
-<body>
-
-  <!-- Hero -->
-  <div class="hero" data-theme="dark">
-    <nav class="container-fluid">
-      <ul>
-        <li><a href="./" class="contrast" id="logo"></a></li>
-      </ul>
-      <ul>
-        <li>
-          <details  role="list" dir="rtl">
-            <summary aria-haspopup="listbox" role="link" class="contrast">
-              <svg viewBox="0 0 100 80" width="40" height="40">
-                <rect width="100" height="20" rx="8"></rect>
-                <rect y="30" width="100" height="20" rx="8"></rect>
-                <rect y="60" width="100" height="20" rx="8"></rect>
-            </svg>
-            </summary>
-            <ul role="listbox">
-              <li><a href="../preview/">About Me</a></li>
-              <li><a href="../preview-rtl/">My Projects</a></li>
-            </ul>
-          </details>
-        </li>
-      </ul>
-    </nav>
-    <header class="container" data-aos="flip-down" data-aos-duration="2000">
-      <hgroup id="intro">
-        <h1>Hello, I'm Brandon. I'm a full stack web developer.</h1>
-        <h4>Welcome to my portfolio</h4>
-        <hr id="content-divider-1">
-      </hgroup>
-
-    </header>
-  </div><!-- ./ Hero -->
-
-  <!-- Main -->
-  <main class="container-fluid">
-
-    <div class="grid" data-aos="fade-right">
-      <section class="cards" id="about-me">
-        <hgroup>
-          <h2>About Me</h2>
+  <body>
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul>
+          <li><a href="./" class="contrast" id="logo"></a></li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                  <rect width="100" height="20" rx="8"></rect>
+                  <rect y="30" width="100" height="20" rx="8"></rect>
+                  <rect y="60" width="100" height="20" rx="8"></rect>
+                </svg>
+              </summary>
+              <ul role="listbox">
+                <li><a href="../preview/">About Me</a></li>
+                <li><a href="../preview-rtl/">My Projects</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+      <header class="container" data-aos="flip-down" data-aos-duration="2000">
+        <hgroup id="intro">
+          <h1>Hello, I'm Brandon. I'm a full stack web developer.</h1>
+          <h4>Welcome to my portfolio</h4>
+          <hr id="content-divider-1" />
         </hgroup>
-        <figure class="home-image">
-          <img src="./assets/images/Display Mockup.jpg" alt="Architecture">
-        </figure>
-        <button class="card-buttons">About Me</button>
-      </section>
-      <section>
-        <p class="description-text">Based out of Salt Lake City, UT and a graduate of the University of Utah Web Development Bootcamp. Currently employed as a full-stack developer
-          building and maintaining case management applications for public defenders across the country.</p>
-      </section>
+      </header>
     </div>
+    <!-- ./ Hero -->
 
-    <hr id="content-divider-2">
+    <!-- Main -->
+    <main class="container-fluid">
+      <div class="grid" data-aos="fade-right">
+        <section class="cards" id="about-me">
+          <hgroup>
+            <h2>About Me</h2>
+          </hgroup>
+          <figure class="home-image">
+            <img src="./assets/images/Display Mockup.jpg" alt="Architecture" />
+          </figure>
+          <button class="card-buttons">About Me</button>
+        </section>
+        <section>
+          <p class="description-text">
+            Based out of Salt Lake City, UT and a graduate of the University of
+            Utah Web Development Bootcamp. Currently employed as a full-stack
+            developer building and maintaining case management applications for
+            public defenders across the country. I also work part time as a
+            teaching assistant for the University of Utah's Web Development
+            Bootcamp.
+          </p>
+        </section>
+      </div>
 
-    <div class="grid" data-aos="fade-left">
-      <section id="my-project-text-desktop">
-        <p class="description-text">Developing skills in building responsive, dynamic web
-          applications
-          utilizing HTML, CSS, JavaScript, SQL, MongoDB, React, C# and more.</p>
-      </section>
-      <section class="cards" id="my-projects">
-        <hgroup>
-          <h2>My Projects</h2>
-        </hgroup>
-        <figure class="home-image">
-          <img src="./assets/images/Smartphone Mockup.jpg" alt="Architecture">
-        </figure>
-        <button class="card-buttons">My Projects</button>
-      </section>
-      <section id="my-project-text-mobile">
-        <p class="description-text">Developing skills in building responsive, dynamic web
-          applications
-          utilizing HTML, CSS, JavaScript, SQL, MongoDB, React, C# and more.</p>
-      </section>
-    </div>
+      <hr id="content-divider-2" />
 
-    <hr id="content-divider-3">
+      <div class="grid" data-aos="fade-left">
+        <section id="my-project-text-desktop">
+          <p class="description-text">
+            Developing skills in building responsive, dynamic web applications
+            utilizing HTML, CSS, JavaScript, SQL, MongoDB, React, C# and more.
+          </p>
+        </section>
+        <section class="cards" id="my-projects">
+          <hgroup>
+            <h2>My Projects</h2>
+          </hgroup>
+          <figure class="home-image">
+            <img
+              src="./assets/images/Smartphone Mockup.jpg"
+              alt="Architecture"
+            />
+          </figure>
+          <button class="card-buttons">My Projects</button>
+        </section>
+        <section id="my-project-text-mobile">
+          <p class="description-text">
+            Developing skills in building responsive, dynamic web applications
+            utilizing HTML, CSS, JavaScript, SQL, MongoDB, React, C# and more.
+          </p>
+        </section>
+      </div>
 
-    <div class="grid" data-aos="fade-right">
-      <section class="cards" id="contact-me">
-        <hgroup>
-          <h2>Contact</h2>
-        </hgroup>
-        <figure class="home-image">
-          <img src="./assets/images/Display Mockup.jpg" alt="Architecture">
-        </figure>
-        <button class="card-buttons">Contact Me</button>
-      </section>
-      <section>
-        <p class="description-text">Got a question? Need a link to my Github, LinkedIn or resume? Please reach out and I will be in touch ASAP.</p>
-      </section>
-    </div>
+      <hr id="content-divider-3" />
 
+      <div class="grid" data-aos="fade-right">
+        <section class="cards" id="contact-me">
+          <hgroup>
+            <h2>Contact</h2>
+          </hgroup>
+          <figure class="home-image">
+            <img src="./assets/images/Display Mockup.jpg" alt="Architecture" />
+          </figure>
+          <button class="card-buttons">Contact Me</button>
+        </section>
+        <section>
+          <p class="description-text">
+            Got a question? Need a link to my Github, LinkedIn or resume? Please
+            reach out and I will be in touch ASAP.
+          </p>
+        </section>
+      </div>
 
-    <form action="#">
-      <button id="toTop" title="Go to top">
-        <i class="fas fa-angle-up"></i>
-      </button>
-    </form>
-  </main><!-- ./ Main -->
+      <form action="#">
+        <button id="toTop" title="Go to top">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </form>
+    </main>
+    <!-- ./ Main -->
 
+    <!-- Footer -->
+    <footer class="container">
+      <div class="grid">
+        <small id="footer-text">Made with &#10084; by Brandon</small>
+      </div>
+      <div id="footer-links">
+        <a role="button" href="https://github.com/bash7325" target="_blank"
+          ><img src="./assets/images/githubsvg.svg" alt="github link"
+        /></a>
+        <a
+          role="button"
+          href="https://drive.google.com/file/d/1SbXy9mhuxzWv-znNeOXE8gpLtCSOrXXA/view?usp=sharing"
+          target="_blank"
+          ><img src="./assets/images/download.png" alt="resume link"
+        /></a>
+        <a
+          role="button"
+          href="https://www.linkedin.com/in/brandon-ashby-a8bb5411b/"
+          target="_blank"
+          ><img src="./assets/images/linkedinsvg.svg" alt=""
+        /></a>
+      </div>
+    </footer>
+    <!-- ./ Footer -->
+  </body>
 
-
-  <!-- Footer -->
-  <footer class="container">
-    <div class="grid">
-      <small id="footer-text">Made with &#10084; by Brandon</small>
-    </div>
-    <div id="footer-links">
-      <a role="button" href="https://github.com/bash7325" target="_blank"><img src="./assets/images/githubsvg.svg" alt="github link"></a>
-      <a role="button" href="https://drive.google.com/file/d/1SbXy9mhuxzWv-znNeOXE8gpLtCSOrXXA/view?usp=sharing" target="_blank"><img src="./assets/images/download.png" alt="resume link"></a>
-      <a role="button"href="https://www.linkedin.com/in/brandon-ashby-a8bb5411b/" target="_blank"><img src="./assets/images/linkedinsvg.svg" alt=""></a>
-    </div>
-  </footer><!-- ./ Footer -->
-
-</body>
-
-<!-- Scripts -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- <script src="anijs-min.js"></script> -->
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="./assets/script.js"></script>
-
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script src="anijs-min.js"></script> -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="./assets/script.js"></script>
 </html>
