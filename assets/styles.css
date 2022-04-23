@@ -1,3 +1,18 @@
+img {
+  padding-bottom: 10px;
+}
+
+#intro {
+  margin-top: 75px;
+}
+
+#logo {
+  background: url(./images/BA-Logo.png) no-repeat center center;
+  background-size: cover;
+  height: 56px;
+  width: 120px;
+  margin-right: 10px;
+}
 
 #toTop {
   height: 50px;

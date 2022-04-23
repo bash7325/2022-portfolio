@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brandon Ashby • Web Developer</title>
-    <meta name="description" content="">
-    <link rel="shortcut icon" href="">
-    <link rel="canonical" href="">
-    <!-- Pico.css -->
+    <meta property="og:title" content="Brandon Ashby - Web Developer - My Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/BA-Logo.png" />
+    <meta property="og:url" content="https://www.bashbydev.com" />
+    <link rel="icon" href="./assets/images/BA.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-    <!-- Custom styles for this example -->
     <link rel="stylesheet" href="./assets/styles.css">
     <link href="https://https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
@@ -24,24 +24,26 @@
     <div class="hero" data-theme="dark">
       <nav class="container-fluid">
         <ul>
-          <li><a href="./" class="contrast" onclick="event.preventDefault()"><strong>Brand</strong></a></li>
+          <li><a href="./" class="contrast" id="logo"></a></li>
         </ul>
         <ul>
           <li>
             <details role="list" dir="rtl">
               <summary aria-haspopup="listbox" role="link" class="contrast">More</summary>
               <ul role="listbox">
-                <li><a href="../preview/">Preview</a></li>
-                <li><a href="../preview-rtl/">Right-to-left</a></li>
+                <li><a href="../preview/">About Me</a></li>
+                <li><a href="../preview-rtl/">My Projects</a></li>
               </ul>
             </details>
           </li>
         </ul>
       </nav>
       <header class="container">
-        <hgroup>
-          <h1>Hello</h1>
-          <h2>Welcome to my portfolio</h2>
+        <hgroup id="intro">
+          <h1>Hello, I'm Brandon. I'm a full stack web developer.</h1>
+          <h4>Welcome to my portfolio</h4>
+          <hr class="content-divider">
+          
         </hgroup>
         
       </header>
@@ -63,19 +65,19 @@
         </section>
 
         <aside>
-          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="https://source.unsplash.com/T5nXYXCf50I/1500x750" alt="Architecture"></a>
+          <a href="#" aria-label="Example"><img src="https://source.unsplash.com/T5nXYXCf50I/1500x750" alt="Architecture"></a>
           <p>
-            <a href="#" onclick="event.preventDefault()">Donec sit amet</a><br>
+            <a href="#">Donec sit amet</a><br>
             <small>Class aptent taciti sociosqu ad litora torquent per conubia nostra</small>
           </p>
-          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="https://source.unsplash.com/tb4heMa-ZRo/1500x750" alt="Architecture"></a>
+          <a href="#" aria-label="Example"><img src="https://source.unsplash.com/tb4heMa-ZRo/1500x750" alt="Architecture"></a>
           <p>
-            <a href="#" onclick="event.preventDefault()">Suspendisse potenti</a><br>
+            <a href="#">Suspendisse potenti</a><br>
             <small>Proin non condimentum tortor. Donec in feugiat sapien.</small>
           </p>
-          <a href="#" aria-label="Example" onclick="event.preventDefault()"><img src="https://source.unsplash.com/Ru3Ap8TNcsk/1500x750" alt="Architecture"></a>
+          <a href="#" aria-label="Example"><img src="https://source.unsplash.com/Ru3Ap8TNcsk/1500x750" alt="Architecture"></a>
           <p>
-            <a href="#" onclick="event.preventDefault()">Nullam lobortis placerat aliquam</a><br>
+            <a href="#">Nullam lobortis placerat aliquam</a><br>
             <small>Maecenas vitae nibh blandit dolor commodo egestas vel eget neque. Praesent semper justo orci, vel imperdiet mi auctor in.</small>
           </p>
         </aside>
@@ -94,7 +96,7 @@
             <form class="grid">
               <input type="text" id="firstname" name="firstname" placeholder="First name" aria-label="First name" required>
               <input type="email" id="email" name="email" placeholder="Email address" aria-label="Email address" required>
-              <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+              <button type="submit">Subscribe</button>
           </form>
         </article>
       </div>
