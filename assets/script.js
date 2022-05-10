@@ -1,7 +1,7 @@
 //AOS initialization
 AOS.init({
     offset: 350,
-    duration: 1000,
+    duration: 500,
   });
 
 //scroll to top button
